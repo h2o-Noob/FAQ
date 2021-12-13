@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.Nav{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    background-color: blue;
+    width: 10%;
+}
+
+.left{
+
+}
+
+.list{
+    display: flex;
+    list-style: none;
+}
+
+.list li{
+    padding: 2vh;
+    margin: 1em;
+    transition: 2s;
+}
+
+.list li :hover{
+    background-color: black;
+    padding: 1.5vh;
+    margin: 0.6em;
+    border-radius: 10px;
+    transition-duration: 0.7s;
+}
+
+.list li a{
+    text-decoration: none;
+    font-size: 2em;
+}

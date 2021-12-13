@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.Main{
+    background-color: rgba(35, 4, 65, 0.829);
+    margin-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.Main__heading{
+    margin-bottom: 2rem;
+}
+
+.Main__heading h1{
+    font-size: 6vw;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
+
+.Main hr{
+    height: 0.2vh;
+    background-image: linear-gradient(to right, rgba(35, 4, 65, 0.685), white, rgba(35, 4, 65, 0.685));
+}
+
+.Main__content{
+    margin-top: 10vh;
+}
+
+.row{
+    margin-bottom: 5vw;
+}
+
+.card{
+    background-color: rgba(255, 255, 255, 0.424);
+    box-shadow: inset 0px 1px 5px 1px white;
+    margin: auto;
+}
+
